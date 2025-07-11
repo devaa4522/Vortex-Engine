@@ -1,0 +1,10 @@
+^C:\USERS\DEVEN\.VSCODE\MATCHING_ENGINE\BUILD\CMAKEFILES\08E7DCAA19587F1AD51A14CA1848DF9E\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/deven/.vscode/matching_engine -BC:/Users/deven/.vscode/matching_engine/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/deven/.vscode/matching_engine/build/MatchingEngine.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
