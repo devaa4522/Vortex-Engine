@@ -1,0 +1,60 @@
+{
+    "nextOrderId": 3,
+    "nextTradeId": 2,
+    "orders": [
+        [
+            1,
+            {
+                "auditTrail": [
+                    "Order received @ 2025-07-15 14:46:20.139",
+                    "Order added to book @ 2025-07-15 14:46:20.141",
+                    "Order fully filled @ 2025-07-15 14:46:27.216"
+                ],
+                "expiry": null,
+                "id": 1,
+                "peakSize": 0,
+                "price": 100.0,
+                "quantity": 10,
+                "remaining": 0,
+                "side": "buy",
+                "status": "filled",
+                "stopPrice": 0.0,
+                "timestamp": 1752570980139,
+                "type": "limit",
+                "visibleQuantity": 10
+            }
+        ],
+        [
+            2,
+            {
+                "auditTrail": [
+                    "Order received @ 2025-07-15 14:46:27.215",
+                    "Order added to book @ 2025-07-15 14:46:27.215",
+                    "Order fully filled @ 2025-07-15 14:46:27.216"
+                ],
+                "expiry": null,
+                "id": 2,
+                "peakSize": 0,
+                "price": 100.0,
+                "quantity": 10,
+                "remaining": 0,
+                "side": "sell",
+                "status": "filled",
+                "stopPrice": 0.0,
+                "timestamp": 1752570987215,
+                "type": "limit",
+                "visibleQuantity": 10
+            }
+        ]
+    ],
+    "trades": [
+        {
+            "buyOrderId": 1,
+            "price": 100.0,
+            "quantity": 10,
+            "sellOrderId": 2,
+            "timestamp": 1752570987215,
+            "tradeId": 1
+        }
+    ]
+}

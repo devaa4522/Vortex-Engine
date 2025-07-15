@@ -1,3 +1,5 @@
-C:/Users/deven/.vscode/matching_engine/build/CMakeFiles/matching_engine.dir
+C:/Users/deven/.vscode/matching_engine/build/CMakeFiles/vortex_core.dir
+C:/Users/deven/.vscode/matching_engine/build/CMakeFiles/vortex.dir
+C:/Users/deven/.vscode/matching_engine/build/CMakeFiles/vortex_api_server.dir
 C:/Users/deven/.vscode/matching_engine/build/CMakeFiles/ALL_BUILD.dir
 C:/Users/deven/.vscode/matching_engine/build/CMakeFiles/ZERO_CHECK.dir

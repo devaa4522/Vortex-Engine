@@ -1,0 +1,11 @@
+# Ignore build artifacts
+/build
+
+# Ignore user-specific files
+.vscode/
+
+# Ignore external dependencies managed by vcpkg
+/external/
+
+# Ignore vcpkg artifacts if they are in the project folder
+/vcpkg_installed/
