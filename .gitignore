@@ -7,5 +7,8 @@
 # Ignore external dependencies managed by vcpkg
 /external/
 
+# Ignore local test files
+/tests/
+
 # Ignore vcpkg artifacts if they are in the project folder
 /vcpkg_installed/
